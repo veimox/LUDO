@@ -1,0 +1,12 @@
+%!TEX root = ../report.tex
+\section{Introduction}
+\label{sec:introduction}
+LUDO game belongs to a category of games with two main conditions: (1) is a game of chance and (2) the number of actions needs to be simplified. 
+A LUDO player with an Artificial Neural Network (ANN) that is evolved with a Genetic Algorithm (GA) has been designed and implemented for this task. 
+For each possible movement in the game, the ANN gives a number representing its the goodness.
+This output is always given even if the ANN has not been trained for it.
+The ANN is trained with a chromosome which defines how good is each situation.
+As the optimal chromosome is unknown, a GA is used to evolve the player.
+To determine the skill of the player, a LUDO tournament is carried out with other players as a Q-learning with GA or a simple weighted input player.
+
+The paper is structured as follows: starts introducing the ANN used [\ref{sub:artificial_neural_network}] and the GA [\ref{sub:genetic_algorithm}], follows with the experimental results [\ref{sec:results}] and the analysis and discussion [\ref{sec:analysis_and_discussion}] to ends with the conclusions [\ref{sec:conclusion}].
